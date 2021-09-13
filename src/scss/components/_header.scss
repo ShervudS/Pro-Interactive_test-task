@@ -1,0 +1,9 @@
+//
+.header{
+    padding: 10px 0;
+    &__container{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Pro-Interactive_test-task</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    @include('partials/header.html')
+
+    <section class="home">
+        <div class="home__container container">
+            <div class="home__btn-ellipse"></div>
+            <div class="home__btn-dots"></div>
+            <button class="home__btn">
+
+            </button>
+        </div>
+    </section>
+
+    <section class="photo">
+        <div class="container__photo container">
+            <h1 class="photo__title"><span class="photo__title photo__title--red">Фото на</span> праздник</h1>
+            <p class="photo__text">Lorem ipsum dolor sit amet, consectetur <span class="photo__text photo__text--red">adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="photo__cards">
+
+                <div class="photo__card">
+                    <div class="photo__card-img">
+                        <img class="photo__card-img" src="img/infenitive.png" alt="">
+                    </div>
+
+                    <p class="photo__card-descr">Безлимитная печать&#160;фото</p>
+                </div>
+
+                <div class="photo__card">
+                    <div class="photo__card-img">
+                        <img class="photo__card-img" src="img/mask.png" alt="">
+                    </div>
+
+                    <p class="photo__card-descr">Фотореквизит в&#160;наличии</p>
+                </div>
+
+                <div class="photo__card">
+                    <div class="photo__card-img">
+                        <img class="photo__card-img" src="img/frame.png" alt="">
+                    </div>
+
+                    <p class="photo__card-descr">Фотоотчет в электронном&#160;виде</p>
+                </div>
+
+                <div class="photo__card">
+                    <div class="photo__card-img">
+                        <img class="photo__card-img" src="img/price.png" alt="">
+                    </div>
+
+                    <p class="photo__card-descr">Цены ниже&#160;рынка</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    @include('partials/footer.html')
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
